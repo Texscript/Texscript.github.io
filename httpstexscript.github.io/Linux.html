@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+      <head>
+          <title>Soluciones a Errores en Sistemas Operativos(Linux)</title>
+          <meta charset="utf-8">
+          <meta name="description" content="En esta pagina pudes encontrar informacion sobre errores en Windows">
+          <meta name="keywords" content="Errores en sistemas operativos, Sistemas operativos, Windows">
+          <link rel="stylesheet" href="windous.css">
+      </head>
+        <body id="ga">
+            <header id="gb">
+            <h1 id="f">linux</h1>
+       </header>
+       <div class="c" id="gc">
+       <section>
+            <nav id="cb">
+                 <div >
+                         <a class="rr" id="ba" href="Proyecto.html">Principal</a>         
+                         <a class="rr" id="bc" href="Android.html">Android</a>
+                         <a class="rr" id="bb" href="Mac.html">Mac</a>   
+                         <a class="rr" id="be" href="Windous.html">Windows</a>
+                         <a class="rr" id="bf" href="Bibliografia.html">Bibliografia</a>
+                         <a class="rr" id="bh" href="Contactenos.html">Contactenos</a>
+                 </div>        
+            </nav>
+         </section>
+         </div>
+                   <div class="b" id="gd" >
+                   <section>
+                     <hgroup class="ky">
+                            <h2> En configuraciónes:</h2>
+                         </hgroup>
+                         <ul>
+                          <li>
+                            <hgroup>
+                             <h3> Una mala configuración de GRUB: </h3>
+                            </hgroup>
+                            Si las entradas del gestor de arranque de Linux están mal configuradas, con razón no vamos a poder arrancar el equipo. Tendremos que reparar el gestor de arranque para que vuelva a funcionar.
+                          </li>
+                          <li>
+                            <hgroup>
+                              <h3>  Una mala configuración de la BIOS/UEFI:</h3>
+                            </hgroup>
+                            Si estamos intentando arrancar el ordenador desde el disco duro incorrecto, entonces tendremos que cambiar la unidad de arranque para que el sistema pueda iniciar.
+                          </li>
+                    </section>
+                    <section>
+                      <hgroup class="ky">
+                        <h2> En instalaciónes:</h2>
+                     </hgroup>
+                       <ul>
+                        <li>
+                           <hgroup >
+                               <h3> Fallo en el text de gráficos en la instalación:</h3>
+                            </hgroup>
+                            Es posible que el instalador se haya equivocado sobre el hardware que tiene. Vuelva a verificar la configuración lo mejor que pueda. Si se ven bien, intenta elegir una resolución más baja por ahora y pruebe nuevamente, y si eso falla, pruebe con una menor cantidad de colores y pruebe nuevamente. Luego, puede intentar configurar las cosas de la manera que desee después de que la máquina esté completamente instalada y actualizada, cuando con suerte tenga una solución para el problema que pueda ser.
+                          </li>
+                           <li>
+                            <hgroup>
+                              <h3> El instalador de Linux se congeló:</h3>
+                            </hgroup>
+                            Cuando se está instalando Linux, es posible que la instalación simplemente se congele. Si es así, espere un poco y asegúrese de que el programa de instalación realmente se congele.Si la instalación aún se congela en el mismo lugar o cerca del mismo lugar, vaya a las páginas de soporte de la distribución. Estas páginas pueden hablar sobre algunos problemas conocidos y soluciones que pueden ayudarlo y deberían mostrarle cómo unirse a las listas de discusión para obtener más ayuda. De lo contrario, diagnosticar el problema puede ser complicado y puede parecer más vudú que científico. 
+                           </li>
+                           li>
+                            <hgroup">
+                               <h3>Una mala actualización del Kernel:</h3>
+                            </hgroup>
+                            Si el núcleo se ha descargado o instalado mal, o la versión que hemos elegido no es compatible con nuestro hardware o sistema, tendremos este problema. Por suerte, casi siempre podremos elegir, en GRUB, la versión anterior.
+                          </li>
+                           <li>
+                            <hgroup"> 
+                            <h3> El instalador probó bien mis gráficos,pero  mi GUI no se inicia:</h3>
+                            </hgroup>
+                            Si su programa de instalación de Linux le mostró un escritorio de GUI diciendo que estaba listo para continuar con el resto de la instalación, probablemente esperaba que la GUI comenzará sin problemas. Desafortunadamente, eso no siempre sucede. Si arranca su máquina por primera vez y ve mensajes de error cuando intenta ingresar a la GUI automáticamente o cuando escribe startx para iniciar la GUI manualmente, escriba system-config-display en un símbolo del sistema para iniciar un programa que pueda ayudarle a solucionar el problema.
+                           </li>
+                           </ul>
+                      </section>
+                      <section>
+                        <hgroup class="ky">
+                          <h2> Soluciones adicionales:</h2>
+                       </hgroup>
+                         <ul>
+                           <li> 
+                            <hgroup>
+                            <h3>Un problema con la partición de arranque del disco duro:</h3> 
+                            </hgroup>
+                            Es posible que se haya corrompido la partición, o que por el motivo que sea el sistema no es capaz de encontrarla. Tendremos que repararla y asegurarnos de que está correctamente asignada a la unidad de arranque.
+                          </li>
+                          <li>
+                           <hgroup>
+                             <h3>Problemas con el Fast Boot de Windows:</h3>
+                            </hgroup>
+                            Si usamos Windows, y tenemos activado el inicio rápido, al quedar parte del núcleo del sistema volcado en el disco, al intentar iniciar Linux nos encontraremos con un error, ya que la BIOS bloquea la unidad para que solo pueda iniciar ese sistema operativo. Tendremos que desactivar esta facultad para poder hacer uso del Linux.
+                          </li>
+                          
+                          <li>
+                            <hgroup>
+                              <h3> Problemas con la función Arranque seguro / Secure Boot:</h3>
+                            </hgroup>
+                            Al no ser compatible con la distribución Linux que utilizamos. De ahí precisamente la importancia de uno de los apartados que debemos tener muy en consideración a la hora de elegir una distribución de Linux u otra.
+                          </li>
+                          
+                          <li>
+                            <hgroup>
+                            <h3>Comprobación de la grabación de la distribución:</h3>
+                            </hgroup>
+                            Algunas distribuciones de Linux (como Ubuntu y openSUSE) ofrecen la opción de comprobar si hay errores en el medio de instalación. Si su instalación sigue muriendo mientras el programa de instalación coloca paquetes en su disco duro.
+                          </li>
+                        </ul>
+                   </section>
+                     </div>
+                     <time datetime="22-2-2023">Pudricado el 22 de febrero del 2023</time>
+</body>
+</html>

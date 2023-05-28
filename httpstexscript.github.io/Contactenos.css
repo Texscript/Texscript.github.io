@@ -1,0 +1,24 @@
+#Nombre, #Edad, #Nacionalidad, #email {
+    display: block;
+    font-size: 20px;
+    width: 400px;
+    margin-top: -18px;
+}
+#Nombre {
+    margin-top: -18px;
+}
+#Asunto { 
+    display: block;
+    margin-top: -18px;
+    width: 400px;
+}
+#comentario {
+    display: block;
+    margin-top: -18px;
+}
+#Enviar {
+    display: block;
+    margin-top: 4px;
+    margin-left: 400px;
+    width: auto;
+}
